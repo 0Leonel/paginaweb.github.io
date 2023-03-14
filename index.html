@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/86/86155.png">
+    <title>Curriculum Vitae</title>
+<link rel="stylesheet" href="/Css/estilos.css">
+<script src="https://kit.fontawesome.com/7c6c140aa5.js" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+    <div class="container my-5 text-center">
+    <button id="boton" onclick="loadDoc()">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+         Curriculum Vitae</button>
+    <section id="data" >
+        <div id="nombre"> 
+          <h1>Leonel Esteban Andias</h1>
+          <p class="rubro">Analista en Sistemas</p>
+        </div>
+        
+        <div class="tab">
+          <button class="tablinks" onclick="openCity(event, 'Perfil')"><i class="fa-sharp fa-solid fa-user"></i>Perfil personal</button>
+          <button class="tablinks" onclick="openCity(event, 'Formacion')"><i class="fa-solid fa-graduation-cap"></i>Formacion académica</button>
+          <button class="tablinks" onclick="openCity(event, 'Experiencia')"><i class="fa-solid fa-briefcase"></i>Experiencia Laboral</button>
+          <button class="tablinks" onclick="openCity(event, 'actualizacion')"><i class="fa-solid fa-rotate-right"></i>Actualizacion</button>
+        </div>
+        <div id="des">
+          <img src="https://hireline.io/blog/wp-content/uploads/2014/11/imagine1.png" id="modo">
+        </div>
+        <div id="Perfil" class="tabcontent">
+          <h2 id="titulo"><i class="fa-sharp fa-solid fa-user"></i> Perfil personal</h2>
+          <p>Me considero una persona responsable, dinamica y creativa, con facilidad de adaptacion y capacidad de trabajar en equipo, en condiciones para resolver problemas eficientemente y lograr las metas y objetivos trazados por la empresa.</p>
+          <h2 id="titulo">Objetivo Profesional</h2>
+          <p>Poner en práctica todos los conocimientos adquiridos durante mi formacion universitaria y poder formar parte de un equipo de trabajo que me permita desarrollarme personal y profesionalmente.</p>
+
+        </div>
+        
+        <div id="Formacion" class="tabcontent">
+          <h2 id="titulo"><i class="fa-solid fa-graduation-cap"></i> Formacion académica</h2>
+          <h5>Primario Completo</h5>
+            <p>Egresado en la Escuela Mariano Moreno N°60 en el año 2013.</p>
+            
+            <h5>Secundario Completo</h5>
+            <p>Egresado en la E.E.S Orientada N°404 "Doctor Lisandro de la Torre", con titulo Bachillerato en Informatica en el año 2019.</p>
+
+            <h5>Terciario</h5>
+            <p>Estudiante de Analista Universitario en Sistemas, en el Instituto Politécnico Superior General San Martín, en curso.</p>
+
+            <h5>Cursos Realizados</h5>
+            <p>Montador Electricista Domiciliario / Centro Provincial de Formación Profesional N°2 / desde 06/03/2019 hasta 05/07/2019 / 425hrs., por Resolución n°1022/2012.</p>
+
+            <p>Habilidades para el Éxito, certificado de reconocimiento en la empresa “JUNIO ACHIEVEMENT” Aprender a Emprender, emitido el 1°de noviembre del 2019.</p>
+
+            <p>Mantenimiento Eléctrico Industrial / Centro Provincial de Formación Profesional N°2 / desde el 22/07/2019 hasta el 13/12/2019 con una duración de 450 horas cátedras.</p>
+
+            <p>Guardavidas / Instituto Superior De Educación Física N°11 “Abanderado Mariano Grandilini” / Promoción 2021</p>
+
+        </div>
+        
+        <div id="Experiencia" class="tabcontent">
+          <h2 id="titulo"><i class="fa-solid fa-briefcase"></i> Experiencia Laboral</h2>
+          <h4>Trabajo Domiciliario</h4>
+            <p>Realizo por cuenta propia, instalaciones domesticas, cambios de lamparas, mejoras electricas, reparaciones, colocacion de artefactos electricos.</p>
+
+            <h4>Guardavidas</h4>
+            <p>Realice reemplazos en el verano en el Club Residencia Parque Field. </p>
+            <p>Realice reemplazos en el Camping de Empleado y Obrero del Jockey Club. </p>
+            <p>Realice reemplazos en el Club Amistad Marina.</p>
+        </div>
+
+        <div id="actualizacion" class="tabcontent">
+          <h2 id="titulo"><i class="fa-solid fa-rotate-right"></i> Actualizaciones</h2>
+            <p>Machine Learning 2023: Hands-On Python & R in Data Science - Udemy</p>
+        </div>
+    </section>
+    <aside id="dat">
+        
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-XHbhDY5ZwNVcHm8z3sdNy_CU3HzTgrdIOw&usqp=CAU" id="foto">
+
+      <div id="informacion">
+          <p id="text"><i class="fa-sharp fa-solid fa-user"></i> 22 años</p>
+            <p id="text"><i class="fa-sharp fa-solid fa-location-pin"></i> Nacionalidad Argentina</p>
+            <p id="text"><i class="fa-solid fa-calendar-days"></i> 18 de Enero de 2001</p>
+      </div>
+            
+          <div id="informacion">
+            <h3 id="marco"> Contacto</h3>
+            <p id="text"> <i class="fa-brands fa-whatsapp"></i> +54 341 684-7845 </p>
+            <p id="text"><i class="fa-sharp fa-solid fa-envelope"></i> leonelandias@gmail.com</p> 
+            <p id="text"><i class="fa-sharp fa-solid fa-house"></i> Dorrego 737, Rosario, Santa Fe </p>
+          </div>
+          
+          <div id="informacion">
+            <h3 id="marco"><i class="fa-sharp fa-solid fa-display"></i> Conocimiento</h3>
+            <ul>
+              <li>Word</li>
+              <li>Excel</li>
+              <li>Paint</li>
+              <li>Html - Css - Javascript</li>
+              <li>C</li>
+            </ul>
+          </div>
+          
+          
+          <div id="informacion">
+            <h3 id="marco"><i class="fa-solid fa-brain"></i> Habilidades</h3>
+          <ul>
+            <li>Pro activo</li>
+            <li>Capacidad de trabajo en equipo</li>
+            <li>Mente abierta</li>
+            <li>Resolucion de problemas</li>
+            <li>Capacidad de adaptación</li>
+          </ul>
+          </div>
+          
+          <div id="informacion">
+            <h3 id="marco"><i class="fa-solid fa-earth-americas"></i> Idiomas</h3>
+            
+            <div class="contenido">
+              <div class="skills ingles"></div>
+            </div>
+            <p id="texto">Ingles</p>           
+    </aside>
+    <script src="/Js/funciones.js"></script>
+</body>
+</html>
